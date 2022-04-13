@@ -4,6 +4,8 @@
  Toma NPROD procesos que generan números aleatorios en el intervalo [1,9]
  y los almacena en un array común. EL productor toma el mínimo de estos números y los consume 
  añadiendolos a una lista de forma que, si ha ido tomando los mínimos, termina quedando una lista ordenada.
+ 
+  NOTA SOBRE LA CORRECCIÓN: la versión anterior solo funcionaba con 3 productores, ahora es más genérico pero el storage solo tiene un hueco para cada una.
  """
 
 
